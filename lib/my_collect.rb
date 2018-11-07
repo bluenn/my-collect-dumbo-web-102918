@@ -3,8 +3,8 @@
 
    i = 0
    while i < array.length
-     element = yield(array[i]
-     new_collection << element
+     array[i] = yield(array[i]
+     new_collection << array[i]
      #new_collection << yield(array[i])
      i += 1
    end
